@@ -1,0 +1,17 @@
+(iproject
+project
+p0
+(dp1
+S'customer'
+p2
+NsS'startDate'
+p3
+NsS'name'
+p4
+S'ISP'
+p5
+sS'projectcode'
+p6
+S'1234'
+p7
+sb.

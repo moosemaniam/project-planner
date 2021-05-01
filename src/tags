@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CreateNewProject	app.py	/^    def CreateNewProject(self,projectname,projectCode):$/;"	m	class:app
+OpenProject	app.py	/^    def OpenProject(self,picklename):$/;"	m	class:app
+TestStringMethods	test.py	/^class TestStringMethods(unittest.TestCase):$/;"	c
+__init__	app.py	/^    def __init__(self):$/;"	m	class:app
+__init__	engineer.py	/^    def  __init__(self,name,role):$/;"	m	class:engineer
+__init__	project.py	/^    def __init__(self,name,projectcode):$/;"	m	class:project
+__init__	task.py	/^     def __init__(self, name, engineer, taskID, dependentTaskID, startDate, EffortInDays):$/;"	f	function:task.__init__
+__init__	task.py	/^    def __init__(self,name):$/;"	m	class:task
+addDependentTask	task.py	/^     def addDependentTask(self,dependentTask):$/;"	f	function:task.__init__
+addEffortInDays	task.py	/^     def addEffortInDays(self,EffortinDays):$/;"	f	function:task.__init__
+addEngineer	task.py	/^     def addEngineer(self,engineer):$/;"	f	function:task.__init__
+addStartDate	task.py	/^     def addStartDate(self,startDate):$/;"	f	function:task.__init__
+app	app.py	/^class app:$/;"	c
+app	test.py	/^from app import app$/;"	i
+assigntaskID	task.py	/^     def assigntaskID(self,taskID):$/;"	f	function:task.__init__
+createTask	app.py	/^    def createTask(self,$/;"	f
+datetime	task.py	/^from datetime import datetime$/;"	i
+engineer	engineer.py	/^class engineer:$/;"	c
+engineer	project.py	/^from engineer import engineer$/;"	i
+engineer	task.py	/^from engineer import engineer$/;"	i
+engineers	project.py	/^    engineers = []$/;"	v	class:project
+getinfo	project.py	/^    def getinfo(self):$/;"	m	class:project
+pickle	app.py	/^import pickle$/;"	i
+printInfo	app.py	/^    def printInfo(self):$/;"	f
+printInfo	app.py	/^    def printInfo(self):$/;"	m	class:app
+printinfo	engineer.py	/^    def printinfo(self):$/;"	m	class:engineer
+printinfo	project.py	/^    def printinfo(self):$/;"	m	class:project
+project	app.py	/^from project import project$/;"	i
+project	project.py	/^class project:$/;"	c
+saveCurrentProject	app.py	/^    def saveCurrentProject(self,picklename):$/;"	m	class:app
+task	app.py	/^from task import task$/;"	i
+task	project.py	/^from task import task$/;"	i
+task	task.py	/^class task:$/;"	c
+tasks	project.py	/^    tasks = []$/;"	v	class:project
+test_create_project	test.py	/^    def test_create_project(self):$/;"	m	class:TestStringMethods
+test_open	test.py	/^    def test_open(self):$/;"	m	class:TestStringMethods
+unittest	test.py	/^import unittest$/;"	i

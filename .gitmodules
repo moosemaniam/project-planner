@@ -1,0 +1,3 @@
+[submodule "docs/SRS-Tex"]
+	path = docs/SRS-Tex
+	url = https://github.com/jpeisenbarth/SRS-Tex.git
