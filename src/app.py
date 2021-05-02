@@ -1,3 +1,4 @@
+###APP file
 import pickle
 from project import project
 from task import task
@@ -17,7 +18,7 @@ class app:
     def saveCurrentProject(self,picklename):
         with open(picklename,'wb') as file:
             pickle.dump(self.project,file)
-    def printInfo(self):
+    def printInfo(selfaa):
         self.project.printinfo()
 
     def getInfo(self):
